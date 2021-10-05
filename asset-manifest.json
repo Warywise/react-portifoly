@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/react-portifoly/static/css/main.a902751e.chunk.css",
-    "main.js": "/react-portifoly/static/js/main.a89e4d61.chunk.js",
-    "main.js.map": "/react-portifoly/static/js/main.a89e4d61.chunk.js.map",
+    "main.js": "/react-portifoly/static/js/main.b9ed7b70.chunk.js",
+    "main.js.map": "/react-portifoly/static/js/main.b9ed7b70.chunk.js.map",
     "runtime-main.js": "/react-portifoly/static/js/runtime-main.3240c831.js",
     "runtime-main.js.map": "/react-portifoly/static/js/runtime-main.3240c831.js.map",
     "static/js/2.5c564788.chunk.js": "/react-portifoly/static/js/2.5c564788.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3240c831.js",
     "static/js/2.5c564788.chunk.js",
     "static/css/main.a902751e.chunk.css",
-    "static/js/main.a89e4d61.chunk.js"
+    "static/js/main.b9ed7b70.chunk.js"
   ]
 }
