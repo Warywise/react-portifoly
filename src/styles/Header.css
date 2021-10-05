@@ -1,0 +1,72 @@
+header {
+  align-items: center;
+  background-color: black;
+  color: white;
+  display: flex;
+  height: calc(2em + 6vmin);
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.nav-bar {
+  border: solid thin rgba(255, 255, 255, 0.5);
+  display: flex;
+  flex-direction: column;
+  font-size: x-large;
+  margin: 0 0.05em;
+  padding: 0.2em 1em;
+  position: relative;
+}
+
+.nav-bar span {
+  transform: scale(2, 1.5);
+  transition: 0.15s;
+}
+
+.nav-bar-div {
+  align-items: center;
+  background-color: black;
+  border: solid thin white;
+  box-shadow: 0.3px 0.3px 1px 1px black;
+  display: none;
+  flex-direction: column;
+  font-size: large;
+  left: -0.1em;
+  position: absolute;
+  text-align: center;
+  top: 100%;
+}
+
+.nav-bar:hover span {
+  transform: scale(2, 1.5) rotate(90deg);
+}
+
+.nav-bar:hover .nav-bar-div {
+  display: flex;
+}
+
+.nav-bar a {
+  background-color: black;
+  border-bottom: solid thin white;
+  display: block;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  margin: 0 1em;
+  padding: 0.4em 0.3em;
+  width: 90%;
+}
+
+a:visited {
+  color: currentColor;
+}
+
+.head-name {
+  margin: 0 1em;
+}
