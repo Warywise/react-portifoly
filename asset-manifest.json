@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/react-portifoly/static/css/main.ca0c80c5.chunk.css",
-    "main.js": "/react-portifoly/static/js/main.fa5ffd42.chunk.js",
-    "main.js.map": "/react-portifoly/static/js/main.fa5ffd42.chunk.js.map",
+    "main.js": "/react-portifoly/static/js/main.2a8e1d74.chunk.js",
+    "main.js.map": "/react-portifoly/static/js/main.2a8e1d74.chunk.js.map",
     "runtime-main.js": "/react-portifoly/static/js/runtime-main.3240c831.js",
     "runtime-main.js.map": "/react-portifoly/static/js/runtime-main.3240c831.js.map",
-    "static/js/2.5c564788.chunk.js": "/react-portifoly/static/js/2.5c564788.chunk.js",
-    "static/js/2.5c564788.chunk.js.map": "/react-portifoly/static/js/2.5c564788.chunk.js.map",
+    "static/js/2.334bbe25.chunk.js": "/react-portifoly/static/js/2.334bbe25.chunk.js",
+    "static/js/2.334bbe25.chunk.js.map": "/react-portifoly/static/js/2.334bbe25.chunk.js.map",
     "static/js/3.25553d1c.chunk.js": "/react-portifoly/static/js/3.25553d1c.chunk.js",
     "static/js/3.25553d1c.chunk.js.map": "/react-portifoly/static/js/3.25553d1c.chunk.js.map",
     "index.html": "/react-portifoly/index.html",
     "static/css/main.ca0c80c5.chunk.css.map": "/react-portifoly/static/css/main.ca0c80c5.chunk.css.map",
-    "static/js/2.5c564788.chunk.js.LICENSE.txt": "/react-portifoly/static/js/2.5c564788.chunk.js.LICENSE.txt"
+    "static/js/2.334bbe25.chunk.js.LICENSE.txt": "/react-portifoly/static/js/2.334bbe25.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3240c831.js",
-    "static/js/2.5c564788.chunk.js",
+    "static/js/2.334bbe25.chunk.js",
     "static/css/main.ca0c80c5.chunk.css",
-    "static/js/main.fa5ffd42.chunk.js"
+    "static/js/main.2a8e1d74.chunk.js"
   ]
 }
