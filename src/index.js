@@ -8,7 +8,7 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Route path="/react-portifoly" component={ App } />
+      <Route component={ App } />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

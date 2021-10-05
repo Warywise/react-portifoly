@@ -4,3 +4,20 @@ body {
   margin: 0;
   padding: 0;
 }
+
+body #root {
+  display: grid;
+  grid-template-rows: calc(2em + 6vmin) 1fr calc(2em + 6vmin);
+}
+
+main {
+  grid-row: 2;
+}
+
+.main-text {
+  font-size: 1.2em;
+  letter-spacing: 0.05em;
+  line-height: 1.3em;
+  max-width: 70%;
+  padding: 5px 10px;
+}
