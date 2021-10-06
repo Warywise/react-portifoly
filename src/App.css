@@ -12,12 +12,152 @@ body #root {
 
 main {
   grid-row: 2;
+  max-height: 105vh;
 }
 
-.main-text {
+.home {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+}
+
+.home-div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.computer-div {
+  position: relative;
+}
+
+.pc-icon {
+  width: 100%;
+}
+
+.computer-photo {
+  background-image: url('https://avatars.githubusercontent.com/u/85768828?v=4');
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  box-shadow: 0 0 2px 0.3px black;
+  height: 37%;
+  left: 31.5%;
+  position: absolute;
+  width: 37%;
+  top: 12%;
+}
+
+.sociallinks-div {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin: auto;
+  top: 45%;
+  width: 100%;
+}
+
+.sociallinks-div > :nth-child( 1 ) {
+  animation: IconPopUp 3s infinite;
+}
+
+.sociallinks-div > :nth-child( 2 ) {
+  animation: IconPopUp 7s infinite;
+}
+
+.sociallinks-div > :nth-child( 3 ) {
+  animation: IconPopUp 5s infinite;
+}
+
+.social-icons {
+  margin: 1em;
+  width: 35px;
+}
+
+.keyboard-icon {
+  margin: -10% auto;
+  transform: scaleY(0.8);
+  width: 75%;
+}
+
+.aside-board {
+  display: none;
+  position: relative;
+}
+
+.board-fixer {
+  border: solid thick rgb(68, 34, 10);
+  border-radius: 5%;
+  height: 50%;
+  position: absolute;
+  top: -8%;
+  transform: rotate(45deg);
+  width: 75%;
+  z-index: -1;
+}
+
+.aside-board div {
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.pin-icon {
+  color: rgba(0, 0, 0, 0.9);
+  margin: 0 10px 0 0;
+  opacity: 0;
+  transform: rotate(-25deg);
+  width: 15px;
+}
+
+.aside-board div:hover .pin-icon, .aside-board div:hover {
+  font-weight: 600;
+  opacity: 1;
+}
+
+.about-text {
   font-size: 1.2em;
   letter-spacing: 0.05em;
   line-height: 1.3em;
   max-width: 70%;
   padding: 5px 10px;
+}
+
+@keyframes IconPopUp {
+  85% { transform: none; }
+  90% { transform: scale(1.1); }
+}
+
+@media (min-width: 700px) {
+  .home {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5em 1fr 1fr;
+  }
+
+  .home h1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .home-div {
+    grid-column: 1;
+    grid-row: 2;
+    margin-right: 2em;
+  }
+
+  .aside-board {
+    background-color: seashell;
+    border: double 10px black;
+    border-radius: 5%;
+    box-shadow: 1px 0.5px 3px black;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1em + 1.5vmin);
+    grid-column: 2;
+    grid-row: 2/3;
+    height: calc(7em + 1vh);
+    margin: -1em 0 0 calc(2.5em + 2vw);
+    padding: 1.5em 0 1.5em 1em;
+    width: calc(7em + 1vw);
+  }
 }
