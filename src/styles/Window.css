@@ -1,0 +1,35 @@
+.window-box {
+  align-items: center;
+  flex-direction: column;
+}
+
+.window {
+  background-image: radial-gradient(rgb(194, 149, 129), rgb(110, 70, 52));
+  background-size: 50%;
+  border: ridge 8px rgb(82, 43, 26);
+  border-radius: 4px;
+  display: flex;
+  flex-flow: wrap;
+  height: 250px;
+  padding: 10px;
+  width: 200px;
+}
+
+.window-glass {
+  background-image: linear-gradient(lightcyan, whitesmoke);
+  border: outset thin lightgrey;
+  box-shadow: 0 0 1px black;
+  margin: 2%;
+  height: 45%;
+  width: 45%;
+}
+
+.window-base {
+  background-image: linear-gradient(lightgrey, grey);
+  background-size: 25% 25%;
+  border-radius: 5px;
+  box-shadow: 0.3px 0.3px 2px 1px black;
+  height: 25px;
+  margin-top: -5px;
+  width: 280px;
+}

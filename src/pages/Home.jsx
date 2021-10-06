@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Window from '../components/Window';
 // import { Link } from 'react-router-dom';
 // import PropTypes from 'prop-types';
 import {
@@ -37,20 +38,23 @@ export default class Home extends Component {
           { KeyboardIcon }
         </div>
         <aside className="aside-board">
-          <div className="board-fixer"/>
-          <div>
-            { BoardPin }
-            <Link onClick={ this.handleClick } to="/react-portifoly/skills">Skills</Link>
-          </div>
-          <div>
-            { BoardPin }
-            <Link onClick={ this.handleClick } to="/projects">Projetos</Link>
-          </div>
-          <div>
-            { BoardPin }
-            <Link onClick={ this.handleClick } to="/about">Sobre</Link>
+          <div className="board-content">
+            <div className="board-fixer"/>
+            <div>
+              { BoardPin }
+              <Link onClick={ this.handleClick } to="/react-portifoly/skills">Skills</Link>
+            </div>
+            <div>
+              { BoardPin }
+              <Link onClick={ this.handleClick } to="/projects">Projetos</Link>
+            </div>
+            <div>
+              { BoardPin }
+              <Link onClick={ this.handleClick } to="/about">Sobre</Link>
+            </div>
           </div>
         </aside>
+        <Window />
       </main>
     );
   }
