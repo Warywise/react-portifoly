@@ -1,0 +1,68 @@
+li {
+  list-style: url('../images/map-pin-solid.svg');
+}
+
+.main-skills {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  min-height: 80vh;
+  min-width: 90%;
+}
+
+.skills-board {
+  background-color: peru;
+  border: double 10px black;
+  border-radius: 5%;
+  box-shadow: 1px 0.5px 1px black;
+  display: flex;
+  height: calc(16em + 30vw);;
+  width: calc(16em + 30vw);
+}
+
+.skills-board-content {
+  background-color: burlywood;
+  border-radius: 3%;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(1em + 0.5vmin);
+  position: relative;
+  width: 100%;
+}
+
+.skills-board-fixer {
+  border: solid thick rgb(68, 34, 10);
+  border-radius: 5%;
+  height: 50%;
+  left: 25%;
+  position: absolute;
+  top: -8%;
+  transform: rotate(45deg);
+  width: 50%;
+  z-index: -1;
+}
+
+.skills-board-content h1 {
+  margin: 3% 0 0;
+  text-align: center;
+}
+
+.skills-content {
+  align-items: center;
+  display: grid;
+  grid-template-columns: 35% 5% 60%;
+  grid-template-rows: 10% 30% 40%;
+  margin: 1% 0 0;
+}
+
+.hard-skills {
+  display: flex;
+  flex-direction: column;
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.soft-skills {
+  grid-column: 3;
+  grid-row: 3;
+}

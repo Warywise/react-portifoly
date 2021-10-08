@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import Window from '../components/Window';
-// import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
 import {
   GitHubIcon, FacebookIcon, LinkedInIcon,
   ComputerIcon, KeyboardIcon, BoardPin
@@ -17,6 +15,7 @@ export default class Home extends Component {
           <div className="computer-div">
             { ComputerIcon }
             <div className="computer-photo" />
+            <div className="computer-background" />
             <div className="sociallinks-div">
               <a
                 href="https://github.com/Warywise"
@@ -35,22 +34,25 @@ export default class Home extends Component {
               >{ LinkedInIcon }</a>
             </div>
           </div>
-          { KeyboardIcon }
+          <div className="keyboard-div">
+            <div className="keyboard-background" />
+            { KeyboardIcon }
+          </div>
         </div>
         <aside className="aside-board">
           <div className="board-content">
             <div className="board-fixer"/>
             <div>
               { BoardPin }
-              <Link onClick={ this.handleClick } to="/react-portifoly/skills">Skills</Link>
+              <Link to="/react-portifoly/skills">Skills</Link>
             </div>
             <div>
               { BoardPin }
-              <Link onClick={ this.handleClick } to="/projects">Projetos</Link>
+              <Link to="/react-portifoly/projects">Projetos</Link>
             </div>
             <div>
               { BoardPin }
-              <Link onClick={ this.handleClick } to="/about">Sobre</Link>
+              <Link to="/react-portifoly/about">Sobre</Link>
             </div>
           </div>
         </aside>

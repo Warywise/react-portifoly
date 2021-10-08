@@ -1,29 +1,33 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
+import '../styles/Skills.css';
 
 export default class Skills extends Component {
   render() {
     return (
-      <main>
-        <h1>Minhas Skills</h1>
-        <ul>
-          <article>
-            <p>Hard Skills:</p>
-            <li>Git e Github</li>
-            <li>Html, Css e Js</li>
-            <li>Jest</li>
-            <li>React</li>
-          </article>
-          <article>
-            <p>Soft SKills:</p>
-            <li>Inteligência emocional</li>
-            <li>Capacidade analítica</li>
-            <li>Comunicação</li>
-            <li>Empatia</li>
-            <li>Objetividade</li>
-          </article>
-        </ul>
+      <main className="main-skills">
+        <section className="skills-board">
+          <div className="skills-board-content">
+          <div className="skills-board-fixer"/>
+            <h1>Minhas Skills</h1>
+            <ul className="skills-content">
+              <article className="hard-skills">
+                <h3>Hard Skills:</h3>
+                <li>Git e Github</li>
+                <li>Html, Css e Js</li>
+                <li>Jest</li>
+                <li>React</li>
+              </article>
+              <article className="soft-skills">
+                <h3>Soft SKills:</h3>
+                <li>Inteligência emocional</li>
+                <li>Capacidade analítica</li>
+                <li>Comunicação</li>
+                <li>Empatia</li>
+                <li>Objetividade</li>
+              </article>
+            </ul>
+          </div>
+        </section>
       </main>
     );
   }
