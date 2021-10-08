@@ -1,13 +1,13 @@
-li {
+.skills-content li {
   list-style: url('../images/map-pin-solid.svg');
+  margin: 1px 0;
 }
 
 .main-skills {
   display: flex;
   justify-content: center;
   margin: auto;
-  min-height: 80vh;
-  min-width: 90%;
+  padding: 25px 0;
 }
 
 .skills-board {
@@ -16,8 +16,8 @@ li {
   border-radius: 5%;
   box-shadow: 1px 0.5px 1px black;
   display: flex;
-  height: calc(16em + 30vw);;
-  width: calc(16em + 30vw);
+  height: calc(15em + 30vw);
+  width: calc(15em + 30vw);
 }
 
 .skills-board-content {
@@ -25,7 +25,7 @@ li {
   border-radius: 3%;
   display: flex;
   flex-direction: column;
-  font-size: calc(1em + 0.5vmin);
+  font-size: calc(1em + 0.5vw);
   position: relative;
   width: 100%;
 }
@@ -50,9 +50,13 @@ li {
 .skills-content {
   align-items: center;
   display: grid;
-  grid-template-columns: 35% 5% 60%;
+  grid-template-columns: 37% 1% 60%;
   grid-template-rows: 10% 30% 40%;
   margin: 1% 0 0;
+}
+
+.skills-content h3 {
+  margin: 15px 0 10px;
 }
 
 .hard-skills {
@@ -65,4 +69,14 @@ li {
 .soft-skills {
   grid-column: 3;
   grid-row: 3;
+}
+
+@media (min-width: 700px) {
+  .skills-board-content {
+    font-size: calc(1em + 0.7vw);
+  }
+
+  .skills-content li {
+    margin: 3px calc(5px + 0.5vw);
+  }
 }
