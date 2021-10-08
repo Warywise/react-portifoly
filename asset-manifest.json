@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/react-portifoly/static/css/main.da7dddf1.chunk.css",
-    "main.js": "/react-portifoly/static/js/main.42084c56.chunk.js",
-    "main.js.map": "/react-portifoly/static/js/main.42084c56.chunk.js.map",
+    "main.css": "/react-portifoly/static/css/main.3968fc8a.chunk.css",
+    "main.js": "/react-portifoly/static/js/main.0d89fa87.chunk.js",
+    "main.js.map": "/react-portifoly/static/js/main.0d89fa87.chunk.js.map",
     "runtime-main.js": "/react-portifoly/static/js/runtime-main.9682bb67.js",
     "runtime-main.js.map": "/react-portifoly/static/js/runtime-main.9682bb67.js.map",
     "static/js/2.d9808296.chunk.js": "/react-portifoly/static/js/2.d9808296.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.40b3d3c3.chunk.js": "/react-portifoly/static/js/3.40b3d3c3.chunk.js",
     "static/js/3.40b3d3c3.chunk.js.map": "/react-portifoly/static/js/3.40b3d3c3.chunk.js.map",
     "index.html": "/react-portifoly/index.html",
-    "static/css/main.da7dddf1.chunk.css.map": "/react-portifoly/static/css/main.da7dddf1.chunk.css.map",
+    "static/css/main.3968fc8a.chunk.css.map": "/react-portifoly/static/css/main.3968fc8a.chunk.css.map",
     "static/js/2.d9808296.chunk.js.LICENSE.txt": "/react-portifoly/static/js/2.d9808296.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9682bb67.js",
     "static/js/2.d9808296.chunk.js",
-    "static/css/main.da7dddf1.chunk.css",
-    "static/js/main.42084c56.chunk.js"
+    "static/css/main.3968fc8a.chunk.css",
+    "static/js/main.0d89fa87.chunk.js"
   ]
 }
