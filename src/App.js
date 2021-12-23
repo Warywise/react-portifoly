@@ -5,7 +5,7 @@ import './App.css';
 import Header from './components/Header';
 import About from './pages/About';
 import Home from './pages/Home';
-import Projects from './pages/Projects';
+import Projects from './pages/Projects.tsx';
 import Skills from './pages/Skills';
 
 function App() {
