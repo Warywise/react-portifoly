@@ -126,6 +126,7 @@ main {
 .board-content div {
   cursor: pointer;
   padding: 0 0 8px 5px;
+  transition: 0.1s;
 }
 
 .pin-icon {

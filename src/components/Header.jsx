@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-// import PropTypes from 'prop-types';
 import '../styles/Header.css';
 
 export default class Header extends Component {
@@ -13,13 +12,13 @@ export default class Header extends Component {
   render() {
     return (
       <header>
-        <nav className="nav-bar" alt="barra de navegação">
+        <nav className="nav-bar" alt="expandir barra de navegação">
           <span>≡</span>
           <div className="nav-bar-div">
             <Link onClick={ this.handleClick } to="/react-portifoly">Início</Link>
             <Link onClick={ this.handleClick } to="/react-portifoly/skills">Skills</Link>
-            <Link onClick={ this.handleClick } to="/projects">Projetos</Link>
-            <Link onClick={ this.handleClick } to="/about">Sobre</Link>
+            <Link onClick={ this.handleClick } to="/react-portifoly/projects">Projetos</Link>
+            <Link onClick={ this.handleClick } to="/react-portifoly/about">Sobre</Link>
           </div>
         </nav>
         <h2 className="head-name">Gustavo Sant'Anna</h2>

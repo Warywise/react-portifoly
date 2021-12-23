@@ -16,7 +16,7 @@
   border-radius: 5%;
   box-shadow: 1px 0.5px 1px black;
   display: flex;
-  height: calc(15em + 30vw);
+  height: fit-content;
   width: calc(15em + 30vw);
 }
 
@@ -48,10 +48,8 @@
 }
 
 .skills-content {
-  align-items: center;
   display: grid;
-  grid-template-columns: 37% 1% 60%;
-  grid-template-rows: 10% 30% 40%;
+  grid-template-rows: 1fr 10% 1fr;
   margin: 1% 0 0;
 }
 
@@ -62,12 +60,9 @@
 .hard-skills {
   display: flex;
   flex-direction: column;
-  grid-column: 1;
-  grid-row: 2;
 }
 
 .soft-skills {
-  grid-column: 3;
   grid-row: 3;
 }
 

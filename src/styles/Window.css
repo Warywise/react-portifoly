@@ -16,7 +16,7 @@
 }
 
 .window-glass {
-  background-image: linear-gradient(lightcyan, whitesmoke);
+  background-image: linear-gradient(to bottom left, lightcyan, whitesmoke);
   border: outset thin lightgrey;
   box-shadow: 0 0 1px black;
   margin: 2%;
