@@ -1,19 +1,23 @@
-import React from 'react'
-
 interface CardInfos {
-  image: string;
-  title: string;
-  description: string;
-  url: string;
+  props: {
+    image: string,
+    title: string,
+    description: string,
+    url: string,
+  }
 }
 
 export default function ProjectCard(props: CardInfos) {
   return (
     <div className='project-card'>
-      <img src={ props.image } alt={ `visual do projeto ${props.title}` } />
-      <h4>{ props.title }</h4>
-      <p>{ props.description }</p>
-      <a href={ props.url } target='_blank' rel='noreferrer'>Ir à pagina</a>
+      <div>
+        <img src={props.props.image} alt={`visual do projeto ${props.props.title}`} />
+      </div>
+      <h3>{ props.props.title }</h3>
+      <p>{ props.props.description }</p>
+      <a href={props.props.url} target='_blank' rel='noreferrer'>
+        <h4>Ir à pagina</h4>
+      </a>
     </div>
   )
 }

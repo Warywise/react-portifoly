@@ -9,3 +9,34 @@
     width: 75%;
   }
 }
+
+.project-card {
+  display: grid;
+  grid-template-columns: 1fr 3% 1fr;
+  grid-template-rows: 13% 1fr 1fr;
+  padding: 0 13%;
+  position: absolute;
+  top: 20%;
+
+  div {
+    grid-column: 1;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  h3 {
+    grid-column: 3;
+  }
+
+  p {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  a {
+    grid-column: 2/4;
+    grid-row: 3;
+  }
+}
