@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/react-portifoly/static/css/main.856e18d1.chunk.css",
-    "main.js": "/react-portifoly/static/js/main.96afd751.chunk.js",
-    "main.js.map": "/react-portifoly/static/js/main.96afd751.chunk.js.map",
-    "runtime-main.js": "/react-portifoly/static/js/runtime-main.34a811c3.js",
-    "runtime-main.js.map": "/react-portifoly/static/js/runtime-main.34a811c3.js.map",
-    "static/js/2.14d30da6.chunk.js": "/react-portifoly/static/js/2.14d30da6.chunk.js",
-    "static/js/2.14d30da6.chunk.js.map": "/react-portifoly/static/js/2.14d30da6.chunk.js.map",
-    "static/js/3.e890ddab.chunk.js": "/react-portifoly/static/js/3.e890ddab.chunk.js",
-    "static/js/3.e890ddab.chunk.js.map": "/react-portifoly/static/js/3.e890ddab.chunk.js.map",
+    "main.css": "/react-portifoly/static/css/main.b84d5a51.chunk.css",
+    "main.js": "/react-portifoly/static/js/main.dd38e00d.chunk.js",
+    "main.js.map": "/react-portifoly/static/js/main.dd38e00d.chunk.js.map",
+    "runtime-main.js": "/react-portifoly/static/js/runtime-main.73ad8632.js",
+    "runtime-main.js.map": "/react-portifoly/static/js/runtime-main.73ad8632.js.map",
+    "static/js/2.d9808296.chunk.js": "/react-portifoly/static/js/2.d9808296.chunk.js",
+    "static/js/2.d9808296.chunk.js.map": "/react-portifoly/static/js/2.d9808296.chunk.js.map",
+    "static/js/3.414f3377.chunk.js": "/react-portifoly/static/js/3.414f3377.chunk.js",
+    "static/js/3.414f3377.chunk.js.map": "/react-portifoly/static/js/3.414f3377.chunk.js.map",
     "index.html": "/react-portifoly/index.html",
-    "static/css/main.856e18d1.chunk.css.map": "/react-portifoly/static/css/main.856e18d1.chunk.css.map",
-    "static/js/2.14d30da6.chunk.js.LICENSE.txt": "/react-portifoly/static/js/2.14d30da6.chunk.js.LICENSE.txt",
+    "static/css/main.b84d5a51.chunk.css.map": "/react-portifoly/static/css/main.b84d5a51.chunk.css.map",
+    "static/js/2.d9808296.chunk.js.LICENSE.txt": "/react-portifoly/static/js/2.d9808296.chunk.js.LICENSE.txt",
+    "static/media/imageExample.1b2f1fb2.png": "/react-portifoly/static/media/imageExample.1b2f1fb2.png",
     "static/media/Skills.css": "/react-portifoly/static/media/map-pin-solid.996492b1.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.34a811c3.js",
-    "static/js/2.14d30da6.chunk.js",
-    "static/css/main.856e18d1.chunk.css",
-    "static/js/main.96afd751.chunk.js"
+    "static/js/runtime-main.73ad8632.js",
+    "static/js/2.d9808296.chunk.js",
+    "static/css/main.b84d5a51.chunk.css",
+    "static/js/main.dd38e00d.chunk.js"
   ]
 }
